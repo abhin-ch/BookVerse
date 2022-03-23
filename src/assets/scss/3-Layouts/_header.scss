@@ -28,7 +28,7 @@
     }
     .header__logo {
         img {
-            height: 2.2rem;
+            height: 3.2rem;
         }
     }
     .is_new {
@@ -108,9 +108,12 @@
                 width: 100%;
             }
         }
+        margin-left: -60px;
+        margin-right: -80px;
+
         background: $color_stroke;
         height: 3rem;
-        width: 20rem;
+        width: 35rem;
         border-radius: 10px;
         position: relative;
         transition: all 0.2s ease-in-out;
@@ -230,6 +233,7 @@
         @include tablet_vert_screen {
             display: none;
         }
+        margin-left: -120px;
     }
     .header__avatar {
         border-radius: $border_radius * 100;
